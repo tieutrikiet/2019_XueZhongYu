@@ -14,6 +14,11 @@
 		1233F930235CA5930010D31C /* XueZhongYu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1233F92E235CA5930010D31C /* XueZhongYu.xcdatamodeld */; };
 		1233F932235CA5940010D31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1233F931235CA5940010D31C /* Assets.xcassets */; };
 		1233F935235CA5940010D31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1233F933235CA5940010D31C /* LaunchScreen.storyboard */; };
+		1233F94A235CA98E0010D31C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1233F94C235CA98E0010D31C /* Localizable.strings */; };
+		1233F950235CA9DE0010D31C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F94F235CA9DE0010D31C /* Extensions.swift */; };
+		1233F954235CAB6C0010D31C /* XZColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F953235CAB6C0010D31C /* XZColors.swift */; };
+		1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F955235CB2E70010D31C /* XZFormatter.swift */; };
+		C7419BDAF0C88DD7F8C20BC0 /* Pods_XueZhongYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		1233F931235CA5940010D31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1233F934235CA5940010D31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1233F936235CA5940010D31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1233F94B235CA98E0010D31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1233F94D235CA9920010D31C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1233F94E235CA9930010D31C /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1233F94F235CA9DE0010D31C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1233F953235CAB6C0010D31C /* XZColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZColors.swift; sourceTree = "<group>"; };
+		1233F955235CB2E70010D31C /* XZFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZFormatter.swift; sourceTree = "<group>"; };
+		5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XueZhongYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE3AE0EFB78A6888EF85E71 /* Pods-XueZhongYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XueZhongYu.release.xcconfig"; path = "Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu.release.xcconfig"; sourceTree = "<group>"; };
+		82B94834697809AA5D7941B1 /* Pods-XueZhongYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XueZhongYu.debug.xcconfig"; path = "Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7419BDAF0C88DD7F8C20BC0 /* Pods_XueZhongYu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,8 @@
 			children = (
 				1233F924235CA5930010D31C /* XueZhongYu */,
 				1233F923235CA5930010D31C /* Products */,
+				549A8AF3FB83C2633317630F /* Pods */,
+				B496F0E76CEEB33D10A534E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +75,11 @@
 		1233F924235CA5930010D31C /* XueZhongYu */ = {
 			isa = PBXGroup;
 			children = (
+				1233F940235CA7610010D31C /* CustomViews */,
+				1233F93F235CA7540010D31C /* ViewControllers */,
+				1233F93E235CA7340010D31C /* Enities */,
+				1233F93D235CA7140010D31C /* Utilities */,
+				1233F93C235CA7060010D31C /* Storyboards */,
 				1233F925235CA5930010D31C /* AppDelegate.swift */,
 				1233F927235CA5930010D31C /* SceneDelegate.swift */,
 				1233F929235CA5930010D31C /* ViewController.swift */,
@@ -66,8 +88,88 @@
 				1233F933235CA5940010D31C /* LaunchScreen.storyboard */,
 				1233F936235CA5940010D31C /* Info.plist */,
 				1233F92E235CA5930010D31C /* XueZhongYu.xcdatamodeld */,
+				1233F94C235CA98E0010D31C /* Localizable.strings */,
 			);
 			path = XueZhongYu;
+			sourceTree = "<group>";
+		};
+		1233F93C235CA7060010D31C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1233F93D235CA7140010D31C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1233F94F235CA9DE0010D31C /* Extensions.swift */,
+				1233F953235CAB6C0010D31C /* XZColors.swift */,
+				1233F955235CB2E70010D31C /* XZFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1233F93E235CA7340010D31C /* Enities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enities;
+			sourceTree = "<group>";
+		};
+		1233F93F235CA7540010D31C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1233F940235CA7610010D31C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1233F943235CA78D0010D31C /* UIViews */,
+				1233F942235CA7810010D31C /* CollectionviewCells */,
+				1233F941235CA7780010D31C /* TableviewCells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1233F941235CA7780010D31C /* TableviewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableviewCells;
+			sourceTree = "<group>";
+		};
+		1233F942235CA7810010D31C /* CollectionviewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionviewCells;
+			sourceTree = "<group>";
+		};
+		1233F943235CA78D0010D31C /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		549A8AF3FB83C2633317630F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B94834697809AA5D7941B1 /* Pods-XueZhongYu.debug.xcconfig */,
+				6AE3AE0EFB78A6888EF85E71 /* Pods-XueZhongYu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B496F0E76CEEB33D10A534E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1233F939235CA5940010D31C /* Build configuration list for PBXNativeTarget "XueZhongYu" */;
 			buildPhases = (
+				E1A6C3C825B810D14CF314E2 /* [CP] Check Pods Manifest.lock */,
 				1233F91E235CA5930010D31C /* Sources */,
 				1233F91F235CA5930010D31C /* Frameworks */,
 				1233F920235CA5930010D31C /* Resources */,
+				29F70AF8EF8096EC47BE8322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +200,7 @@
 		1233F91A235CA5920010D31C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XZ;
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = KietTieu;
@@ -112,6 +217,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				vi,
 			);
 			mainGroup = 1233F919235CA5920010D31C;
 			productRefGroup = 1233F923235CA5930010D31C /* Products */;
@@ -129,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1233F935235CA5940010D31C /* LaunchScreen.storyboard in Resources */,
+				1233F94A235CA98E0010D31C /* Localizable.strings in Resources */,
 				1233F932235CA5940010D31C /* Assets.xcassets in Resources */,
 				1233F92D235CA5930010D31C /* Main.storyboard in Resources */,
 			);
@@ -136,13 +244,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29F70AF8EF8096EC47BE8322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A6C3C825B810D14CF314E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XueZhongYu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1233F91E235CA5930010D31C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */,
+				1233F950235CA9DE0010D31C /* Extensions.swift in Sources */,
 				1233F92A235CA5930010D31C /* ViewController.swift in Sources */,
 				1233F930235CA5930010D31C /* XueZhongYu.xcdatamodeld in Sources */,
+				1233F954235CAB6C0010D31C /* XZColors.swift in Sources */,
 				1233F926235CA5930010D31C /* AppDelegate.swift in Sources */,
 				1233F928235CA5930010D31C /* SceneDelegate.swift in Sources */,
 			);
@@ -167,6 +339,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		1233F94C235CA98E0010D31C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1233F94B235CA98E0010D31C /* en */,
+				1233F94D235CA9920010D31C /* zh-Hans */,
+				1233F94E235CA9930010D31C /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -174,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -220,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -274,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,11 +470,13 @@
 		};
 		1233F93A235CA5940010D31C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B94834697809AA5D7941B1 /* Pods-XueZhongYu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T59U8JF47Z;
 				INFOPLIST_FILE = XueZhongYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +484,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiettieu.XueZhongYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1233F93B235CA5940010D31C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE3AE0EFB78A6888EF85E71 /* Pods-XueZhongYu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T59U8JF47Z;
 				INFOPLIST_FILE = XueZhongYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiettieu.XueZhongYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
