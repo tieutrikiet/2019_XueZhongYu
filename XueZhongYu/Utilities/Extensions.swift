@@ -117,3 +117,23 @@ extension String {
             }.joined().dropFirst())
     }
 }
+
+// MARK: - UIButton
+extension UIButton {
+    /// Set button is under "selected" state with solid blue color
+    func setSolidColor(_ color: UIColor, textColor: UIColor) {
+        self.borderColor = color
+        self.backgroundColor = color
+        self.setTitleColor(textColor, for: .normal)
+        self.tintColor = textColor
+    }
+    
+    /// Set button with a color in its outline. Default border weight is 1px.
+    func setOutlineColor(_ color: UIColor, weight: CGFloat = 1) {
+        self.borderWidth = weight
+        self.borderColor = color
+        self.backgroundColor = .clear
+        self.setTitleColor(color, for: .normal)
+        self.tintColor = color
+    }
+}
