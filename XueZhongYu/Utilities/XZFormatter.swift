@@ -12,15 +12,40 @@ import UIKit
 struct XZ_Formatter {
     enum dateTime: String {
         /// 20 October, 2019
-        case full = "D MMMM, yyyy"
+        case fullDate = "D MMMM, yyyy"
         
         /// 20 Oct, 2019
-        case fullWithoutMonth = "D MMM, yyyy"
+        case fullDateWithoutMonth = "D MMM, yyyy"
         
         /// 20/10/2019
-        case fullNumberSlash = "DD/MM/yyyy"
+        case fullDateNumberSlash = "DD/MM/yyyy"
         
         /// 20-10-2019
-        case fullNumberMinus = "DD-MM-yyyy"
+        case fullDateNumberMinus = "DD-MM-yyyy"
+        
+        /// 20 October, 2019 (16:52)
+        case fullDateTime = "D MMMM, yyyy (HH:mm)"
+        
+        /// 16:52 - 20 October, 2019
+        case fullTimeDate = "HH:mm - D MMMM, yyyy"
+        
+        /// 16:52
+        case onlyTime = "HH:mm"
+    }
+    
+    /// Convert a date time to string based on a specific format string.
+    static func dateToString(from date: Date, format: String, UTC: Bool = true) -> String {
+        var value = ""
+        let dateFormatter = DateFormatter()
+        dateFormatter.calendar = Calendar(identifier: Calendar.Identifier.gregorian)
+        
+        if UTC {
+            dateFormatter.timeZone = TimeZone(identifier: "UTC") ?? TimeZone.current
+        }
+        
+        dateFormatter.dateFormat = format
+        value = dateFormatter.string(from: date)
+        
+        return value
     }
 }

@@ -110,60 +110,6 @@ extension String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
     
-//    /// Convert a UTC date time string to local time string by a forrmater string.
-//    func toLocalTimeFromUTCTime(with formatString: DateTimeFormatterType = .TimeAndDate) -> String {
-//        let utcFormatter = DateFormatter()
-//        utcFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
-//        utcFormatter.timeZone = TimeZone(abbreviation: "UTC")
-//
-//        if let localTime = utcFormatter.date(from: self) {
-//            return localTime.toLocalString(with: formatString)
-//        }
-//
-//        return ""
-//    }
-//
-//    /// Convert a UTC datetime string to official UTC date
-//    func toUTCDate() -> Date {
-//        let utcFormatter = DateFormatter()
-//        utcFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
-//        utcFormatter.timeZone = TimeZone(abbreviation: "UTC")
-//
-//        if let time = utcFormatter.date(from: self) {
-//            return time
-//        }
-//
-//        return Date()
-//    }
-//    
-//
-//    /// Convert a datetime string from a format of UTC timezone to date
-//    func toDate(format: DateTimeFormatterType) -> Date {
-//        let utcFormatter = DateFormatter()
-//        utcFormatter.dateFormat = format.rawValue
-//        utcFormatter.timeZone = TimeZone(abbreviation: "UTC")
-//
-//        if let time = utcFormatter.date(from: self) {
-//            return time
-//        }
-//
-//        return Date()
-//    }
-//
-//    /// Convert a datetime string from a specific format type into local date
-//    func toLocalDate(from format: DateTimeFormatterType) -> Date {
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = format.rawValue
-//        formatter.timeZone = TimeZone.current
-//
-//        if let time = formatter.date(from: self) {
-//            return time
-//        }
-//
-//        return Date()
-//    }
-    
-    
     func grouping(every groupSize: String.IndexDistance, with separator: Character) -> String {
         let cleanedUpCopy = replacingOccurrences(of: String(separator), with: "")
         return String(cleanedUpCopy.enumerated().map() {

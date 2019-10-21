@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		1233F950235CA9DE0010D31C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F94F235CA9DE0010D31C /* Extensions.swift */; };
 		1233F954235CAB6C0010D31C /* XZColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F953235CAB6C0010D31C /* XZColors.swift */; };
 		1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F955235CB2E70010D31C /* XZFormatter.swift */; };
+		125A8AFC235D6ADA00A37F3E /* XZUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */; };
 		C7419BDAF0C88DD7F8C20BC0 /* Pods_XueZhongYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		1233F94F235CA9DE0010D31C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1233F953235CAB6C0010D31C /* XZColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZColors.swift; sourceTree = "<group>"; };
 		1233F955235CB2E70010D31C /* XZFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZFormatter.swift; sourceTree = "<group>"; };
+		125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZUserDefaults.swift; sourceTree = "<group>"; };
 		5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XueZhongYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE3AE0EFB78A6888EF85E71 /* Pods-XueZhongYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XueZhongYu.release.xcconfig"; path = "Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu.release.xcconfig"; sourceTree = "<group>"; };
 		82B94834697809AA5D7941B1 /* Pods-XueZhongYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XueZhongYu.debug.xcconfig"; path = "Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				1233F94F235CA9DE0010D31C /* Extensions.swift */,
 				1233F953235CAB6C0010D31C /* XZColors.swift */,
 				1233F955235CB2E70010D31C /* XZFormatter.swift */,
+				125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -251,30 +254,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125A8AFC235D6ADA00A37F3E /* XZUserDefaults.swift in Sources */,
 				1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */,
 				1233F950235CA9DE0010D31C /* Extensions.swift in Sources */,
 				1233F92A235CA5930010D31C /* ViewController.swift in Sources */,
