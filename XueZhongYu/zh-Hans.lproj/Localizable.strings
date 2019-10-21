@@ -5,3 +5,13 @@
   Created by Kiệt Tiêu on 10/20/19.
   Copyright © 2019 KietTieu. All rights reserved.
 */
+
+"language" = "cn";
+
+// MARK: - Common texts
+"OK" = "同意";
+"Cancel" = "取消";
+"Yes" = "是";
+"No" = "不是";
+
+"error_message_default" = "抱歉，出了一些问题。";

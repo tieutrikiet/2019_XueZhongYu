@@ -56,7 +56,7 @@ extension XZ_Color {
         case warning
         case shadow
         
-        func getColor() -> UIColor {
+        func color() -> UIColor {
             switch self {
             case .background:
                 return XZ_Color.WildSand

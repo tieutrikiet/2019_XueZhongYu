@@ -10,7 +10,6 @@
 		12241393235DB89F0099D4C0 /* XZConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12241392235DB89F0099D4C0 /* XZConstants.swift */; };
 		1233F926235CA5930010D31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F925235CA5930010D31C /* AppDelegate.swift */; };
 		1233F928235CA5930010D31C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F927235CA5930010D31C /* SceneDelegate.swift */; };
-		1233F92A235CA5930010D31C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F929235CA5930010D31C /* ViewController.swift */; };
 		1233F92D235CA5930010D31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1233F92B235CA5930010D31C /* Main.storyboard */; };
 		1233F930235CA5930010D31C /* XueZhongYu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1233F92E235CA5930010D31C /* XueZhongYu.xcdatamodeld */; };
 		1233F932235CA5940010D31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1233F931235CA5940010D31C /* Assets.xcassets */; };
@@ -19,6 +18,10 @@
 		1233F950235CA9DE0010D31C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F94F235CA9DE0010D31C /* Extensions.swift */; };
 		1233F954235CAB6C0010D31C /* XZColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F953235CAB6C0010D31C /* XZColors.swift */; };
 		1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233F955235CB2E70010D31C /* XZFormatter.swift */; };
+		1238663C235DEFA900B17239 /* XZIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238663B235DEFA900B17239 /* XZIntroViewController.swift */; };
+		1238663F235DF37B00B17239 /* XZMainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238663E235DF37B00B17239 /* XZMainTabBarViewController.swift */; };
+		12386641235DF39600B17239 /* XZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12386640235DF39600B17239 /* XZViewController.swift */; };
+		12386643235DF41300B17239 /* XZUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12386642235DF41300B17239 /* XZUtils.swift */; };
 		125A8AFC235D6ADA00A37F3E /* XZUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */; };
 		C7419BDAF0C88DD7F8C20BC0 /* Pods_XueZhongYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +31,6 @@
 		1233F922235CA5930010D31C /* XueZhongYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XueZhongYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1233F925235CA5930010D31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1233F927235CA5930010D31C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1233F929235CA5930010D31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1233F92C235CA5930010D31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1233F92F235CA5930010D31C /* XueZhongYu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XueZhongYu.xcdatamodel; sourceTree = "<group>"; };
 		1233F931235CA5940010D31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,10 @@
 		1233F94F235CA9DE0010D31C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1233F953235CAB6C0010D31C /* XZColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZColors.swift; sourceTree = "<group>"; };
 		1233F955235CB2E70010D31C /* XZFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZFormatter.swift; sourceTree = "<group>"; };
+		1238663B235DEFA900B17239 /* XZIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZIntroViewController.swift; sourceTree = "<group>"; };
+		1238663E235DF37B00B17239 /* XZMainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZMainTabBarViewController.swift; sourceTree = "<group>"; };
+		12386640235DF39600B17239 /* XZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZViewController.swift; sourceTree = "<group>"; };
+		12386642235DF41300B17239 /* XZUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZUtils.swift; sourceTree = "<group>"; };
 		125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZUserDefaults.swift; sourceTree = "<group>"; };
 		5B7F911AB70451B540EBE500 /* Pods_XueZhongYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XueZhongYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE3AE0EFB78A6888EF85E71 /* Pods-XueZhongYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XueZhongYu.release.xcconfig"; path = "Target Support Files/Pods-XueZhongYu/Pods-XueZhongYu.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,10 +92,7 @@
 				1233F93C235CA7060010D31C /* Storyboards */,
 				1233F925235CA5930010D31C /* AppDelegate.swift */,
 				1233F927235CA5930010D31C /* SceneDelegate.swift */,
-				1233F929235CA5930010D31C /* ViewController.swift */,
-				1233F92B235CA5930010D31C /* Main.storyboard */,
 				1233F931235CA5940010D31C /* Assets.xcassets */,
-				1233F933235CA5940010D31C /* LaunchScreen.storyboard */,
 				1233F936235CA5940010D31C /* Info.plist */,
 				1233F92E235CA5930010D31C /* XueZhongYu.xcdatamodeld */,
 				1233F94C235CA98E0010D31C /* Localizable.strings */,
@@ -100,6 +103,8 @@
 		1233F93C235CA7060010D31C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				1233F92B235CA5930010D31C /* Main.storyboard */,
+				1233F933235CA5940010D31C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				1233F955235CB2E70010D31C /* XZFormatter.swift */,
 				125A8AFB235D6ADA00A37F3E /* XZUserDefaults.swift */,
 				12241392235DB89F0099D4C0 /* XZConstants.swift */,
+				12386642235DF41300B17239 /* XZUtils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 		1233F93F235CA7540010D31C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1238663D235DF35300B17239 /* Base */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -159,6 +166,16 @@
 			children = (
 			);
 			path = UIViews;
+			sourceTree = "<group>";
+		};
+		1238663D235DF35300B17239 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1238663B235DEFA900B17239 /* XZIntroViewController.swift */,
+				1238663E235DF37B00B17239 /* XZMainTabBarViewController.swift */,
+				12386640235DF39600B17239 /* XZViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		549A8AF3FB83C2633317630F /* Pods */ = {
@@ -297,12 +314,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1238663F235DF37B00B17239 /* XZMainTabBarViewController.swift in Sources */,
 				125A8AFC235D6ADA00A37F3E /* XZUserDefaults.swift in Sources */,
 				1233F956235CB2E70010D31C /* XZFormatter.swift in Sources */,
 				1233F950235CA9DE0010D31C /* Extensions.swift in Sources */,
-				1233F92A235CA5930010D31C /* ViewController.swift in Sources */,
+				1238663C235DEFA900B17239 /* XZIntroViewController.swift in Sources */,
 				1233F930235CA5930010D31C /* XueZhongYu.xcdatamodeld in Sources */,
 				1233F954235CAB6C0010D31C /* XZColors.swift in Sources */,
+				12386643235DF41300B17239 /* XZUtils.swift in Sources */,
+				12386641235DF39600B17239 /* XZViewController.swift in Sources */,
 				1233F926235CA5930010D31C /* AppDelegate.swift in Sources */,
 				12241393235DB89F0099D4C0 /* XZConstants.swift in Sources */,
 				1233F928235CA5930010D31C /* SceneDelegate.swift in Sources */,

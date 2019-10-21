@@ -137,3 +137,26 @@ extension UIButton {
         self.tintColor = color
     }
 }
+
+// MARK: - Error
+extension Error {
+    var code: Int { return (self as NSError).code }
+    var domain: String { return (self as NSError).domain }
+    var message: String? { return getErrorMessage() }
+    
+    func getErrorMessage()-> String? {
+        if let userInfo = (self as NSError).userInfo[NSLocalizedDescriptionKey] as? String {
+            return userInfo
+        }
+        if let userInfo = (self as NSError).userInfo[NSLocalizedDescriptionKey] as? [Any?] {
+            for item in userInfo {
+                if item is String {
+                    return item as? String
+                }
+            }
+            
+        }
+        return nil
+    }
+    
+}
